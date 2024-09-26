@@ -10,7 +10,7 @@ export class EmpleadoService {
 
   selectedEmpleado: Empleado;
   empleados : Empleado[];
-  readonly URL_API = 'https://api-angular-backend-sigma.vercel.app/api/empleados'; //estaba en el 3000 lo paso a 3005
+  readonly URL_API = 'https://api-angular-backend.vercel.app/api/empleados'; //estaba en el 3000 lo paso a 3005
   //https://despliegue-sigma.vercel.app/api/empleados (este es el del profesor, coloco el mío arriba como se llama mi proyecto)
 
   constructor(private http: HttpClient) {
